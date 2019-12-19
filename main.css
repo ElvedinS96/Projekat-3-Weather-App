@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300,400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One&display=swap');
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+
+  
+}
+ 
+.intro {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background: no-repeat;
+  top: 0;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+ 
+h1 {
+  font-family: 'Fjalla One', sans-serif;
+  color: #fff;
+  font-size: 70px;
+  text-shadow: 1px 1px white;
+  border-bottom:3px solid rgb(255, 163, 26)
+}
+ 
+#send {
+  
+  border: solid 3px #fff;
+  color: #fffF;
+  font-size: 15px;
+  background-color: Transparent;
+  padding: 7px 20px;
+  text-transform: uppercase;
+}
+ 
+#send:hover {
+  color: rgb(255, 163, 26);
+  border: solid 3px rgb(255, 163, 26);
+  font-size: 20px;
+}
+ 
+#grad_value {
+  font-size: 125%;
+  padding: 7px 20px;
+  border-color: rgb(255, 163, 26);
+  border-style: solid;
+}
+#locationLogo{
+  margin-top:10px;
+  height:30px;
+  width:20px;
+  background-color: black;
+}
+.content {
+  text-align: center;
+}
+ 
+.main {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background: #fff;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+ 
+#currentWeather {
+ background-color: rgb(128, 128, 128);
+  width: 75%;
+  border-radius: 15px 50px;
+  border:1px solid red;
+  color:white;
+}
+#divGumb{
+  display:flex;
+  justify-content: center;
+}
+ 
+#temperatura {
+  font-size: 270%;
+}
+ 
+#weather {
+  font-size: 150%;
+
+}
+.tdmetrics{
+  text-decoration: underline;
+  font-size:30px;
+}
+#currentDate{
+  font-size: 30px;
+  text-align: center;
+}
+#ikon {
+ 
+  width: 12%;
+  height: 12%;
+}
+ 
+.data1 {
+  font-weight: bold;
+  font-size: 30px;
+}
+ 
+#send1 {
+  border: solid 3px #fff;
+  color: black;
+  font-size: 102%;
+  background-color: #7DE6ED;
+  text-transform: uppercase;
+  padding: 7px 20px;
+}
+ 
+#send1:hover {
+  color: #fff;
+  border: solid 3px #fff;
+}
+ 
+#grad_value1 {
+  font-size: 92%;
+  padding: 7px 20px;
+  border-color: #7DE6ED;
+ 
+}
+ 
+#druga {
+  float: right;
+}
+ 
+#grad {
+  font-size: 200%;
+  color: black;
+  text-align: center;
+  background: white;
+  width:100%;
+  border-radius: 15px 50px;
+}
+ #weatherInfo{
+   text-align: center;
+ }
+ #tableInfo{
+   width:100%;
+   text-align:center;
+ }
+#gumb {
+ 
+  border: solid 2px #fff;
+  color: black;
+  font-size: 102%;
+  width: 200px;
+  background-color: rgb(255, 163, 26);
+  padding: 7px 20px;
+}
+ 
+#gumb:hover {
+  color: #fff;
+  border: solid 2px #fff;
+  border-radius:4px;
+}
+ 
+.forecast {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  position: relative;
+}
+ 
+#forecastWeather {
+  width:80%;
+  background-color: rgba(22, 46, 182, 0.4);
+  display:flex;
+  justify-content: space-evenly;
+  margin:auto;
+  padding: 20px 20px;
+  border:1px solid red;
+  border-radius: 0px 0px 15px 50px;
+}
+#nextDays {
+  background-color: rgba(22, 46, 182, 0.4);
+  margin-top: 80px;
+  font-size: 50px;
+  text-align: center;
+  width:83%;
+  margin: auto;
+  border:1px solid red;
+  border-bottom: none;
+  border-radius: 15px 50px 0px 0px;
+  align-items: center;
+}
+.days{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  margin:0px 10px;
+  border-radius: 5px 10px;
+  background-color:rgba(59, 52, 52, 0.4);
+  color:white;
+  padding:10px;
+  
+}
+
+.details{
+  font-size: 21px;
+  "font-weight": "300";
+
+}
+.dLogo{
+  display:flex;
+  justify-content: center;
+}
+#wLogo{
+  height:80px;
+  width:80px;
+}
+#scroll {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  background-color: #7DE6ED;
+  text-indent: -9999px;
+  display: none;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  border-radius: 60px
+}
+ 
+#scroll span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -8px;
+  margin-top: -12px;
+  height: 0;
+  width: 0;
+  border: 8px solid transparent;
+  border-bottom-color: #ffffff;
+}
+ 
+#scroll:hover {
+  background-color: black;
+  opacity: 1;
+  filter: "alpha(opacity=100)";
+  -ms-filter: "alpha(opacity=100)";
+}
+.buttons{
+  position: absolute;
+  left:0;
+  background-color: #555555;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  color:white;
+  border-radius: 10px
+}
+#reset{
+  top:500px;
+  left:80px;
+}
+#reset1{
+  top:550px;
+  left:80px;
+}

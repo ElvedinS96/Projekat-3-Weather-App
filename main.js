@@ -41,7 +41,7 @@ $(document).ready(function() {
       if (grad !== '') {
         $.ajax({
           type: 'GET',
-          url: 'https://api.openweathermap.org/data/2.5/weather?q=' + grad + '&appid=9dcd8991f9f548f9d28bc5cf37a80c4e&units=metric',
+          url: 'https://api.openweathermap.org/data/2.5/weather?q=' + grad + '&appid=7c0fe914bbb115ec1f664f2d087f17cb&units=metric',
           dataType: 'jsonp',
           success: function(podaci) {
             $(".main").show();
